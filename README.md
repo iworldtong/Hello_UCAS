@@ -25,9 +25,6 @@
     <a href="https://www.google.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
 </div>
 
-（命令行版本）
-
-
 
 ## 3.目前问题
 
