@@ -21,9 +21,10 @@
 ## 2.下载
 
 <div>
-    <a href="www.baidu.com"><img src="./src/win.png" height = "30" alt="Win64" align=center /></a>
-    <a href="www.baidu.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
+    <a href="https://www.google.com"><img src="./src/win.png" height = "30" alt="Win64" align=center /></a>
+    <a href="https://www.google.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
 </div>
+
 （命令行版本）
 
 
