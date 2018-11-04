@@ -24,7 +24,7 @@
     <a href="www.baidu.com"><img src="./src/win.png" height = "30" alt="Win64" align=center /></a>
     <a href="www.baidu.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
 </div>
-*（暂时只有命令行版本）*
+（命令行版本）
 
 
 
