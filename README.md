@@ -21,8 +21,8 @@
 ## 2.下载
 
 <div>
-    <a href="https://pan.baidu.com/s/19GnOsXwco_oapoYvHtu4LQ"><img src="./src/win.png" height = "30" alt="Win64" align=center /></a>
-    <a href="https://www.google.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
+    <a target="_blank" href="https://pan.baidu.com/s/19GnOsXwco_oapoYvHtu4LQ"><img src="./src/win.png" height = "30" alt="Win64" align=center /></a>
+    <a target="_blank" href="https://www.google.com"><img src="./src/apple.png" height = "40" alt="Mac OS" align=center /></a>
 </div>
 
 
