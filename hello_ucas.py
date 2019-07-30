@@ -63,6 +63,17 @@ class UCAS_spider(object):
         # save dir
         self.save_root_dir = '.'
 
+        # 
+        now = datetime.datetime.now()
+        tm = str(now).split(' ')[0].split('-')
+        self.tm = [int(t) for t in tm]
+        m = self.tm[1]
+        if m < 2 and m > 8:
+            self.term = '秋季'
+        else:
+            self.term = '春季'
+
+
 
 
     def login(self, username=None, password=None, cfg='./config.txt'):
@@ -171,7 +182,11 @@ class UCAS_spider(object):
             c_bs = self.course2bs[c]
             resource_url = c_url + '/tool/' + c_bs.find('a',{'class':'Mrphs-toolsNav__menuitem--link ', 'title':'资源 - 上传、下载课件，发布文档，网址等信息'}).get('href').split('/')[-1]
             resource_bs = self.get_bs(resource_url)
-            resource_div = [*resource_bs.findAll('a',{'title':'Word '}), *resource_bs.findAll('a',{'title':'PDF'}), *resource_bs.findAll('a',{'title':'PowerPoint '}), *resource_bs.findAll('a',{'title':'Power Point'})]
+            # !!!!!!!!!!!!!!!
+            resource_div = [*resource_bs.findAll('a',{'title':'Word '}), \
+                            *resource_bs.findAll('a',{'title':'PDF'}), \
+                            *resource_bs.findAll('a',{'title':'PowerPoint '}), \
+                            *resource_bs.findAll('a',{'title':'Power Point'})]
 
             cur_dir = os.path.join(self.save_root_dir, c, 'src')
             for i, a_bs in enumerate(resource_div):        
